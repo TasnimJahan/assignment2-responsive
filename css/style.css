@@ -1,0 +1,156 @@
+header{
+    background-color: #fff9f4;
+}
+.navbar a{
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
+    padding-left: 5%;
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+h2{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+h3{
+    color: #FA804C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+h4{
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+.causal-image{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.img-one,.img-two,.img-three{
+    border-radius: 5%!important;
+    background-color: #f1f1f1;
+}
+.btn{
+    background-color: #3D4FF3;
+    height: 3rem;
+    border-radius: 10px;
+}
+.img-two{
+    height: 94%;
+}
+.img-one{
+    height: 96%;
+}
+.casual-card,.formal-card{
+    border-radius: 5%;
+    border: 0;
+}
+.contact{
+    border-radius: 10px;
+}
+.shoe-card-footer{
+    border: 0;
+    padding-bottom: 5%;
+    background-color: #fff;
+    border-radius: 20px!important;
+}
+.filled{
+    color: goldenrod;
+    font-size: .8em;
+}
+.unfilled{
+    color: lightgray;
+    font-size: .8em;
+}
+.arrival-img{
+    background-color: #e79696;
+    opacity: .7;
+}
+/* .arrival-img:hover .discount>p{
+    display: block!important;
+    background-color: rgb(138, 50, 50);
+    opacity: 1;
+} */
+.arrival-img:hover{
+     transform: scale(1.2);
+     transition: transform 2s;
+     opacity: 1;
+}
+.discount{
+    position: absolute;
+    left:21%;
+    top:5%;
+    color: red;
+    font-size: 3rem;
+     font-weight:700;
+}
+@media (max-width: 992px){
+    h2{
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .find{
+        text-align: center;
+    }
+    .about-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .btn{
+       
+        font-size: .6rem;
+    }
+}
+@media (max-width: 688px){
+    h2{
+        text-align: center;
+    }
+    .card-body h4,p,h3{
+        padding-left: 2%;
+    }
+    .card-footer .btn{
+        margin-right: 3%;
+    }
+    .featured,.fit{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-photo{
+        width: auto;
+        margin-right:0
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .find{
+        text-align: center;
+    }
+}
